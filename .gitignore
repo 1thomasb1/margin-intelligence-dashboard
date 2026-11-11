@@ -1,0 +1,26 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated SQLite data and exports
+data/*.db
+data/*.db-*
+*.csv
+*.xlsx
+*.zip
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
