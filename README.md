@@ -144,33 +144,6 @@ ORDER BY over_policy_price_gap DESC;
 
 The SQLite file (`data/marginiq_demo.db`) is generated on first app launch. You can explore it with any compatible SQLite browser or the Python `sqlite3` library.
 
-## Publishing to GitHub
-
-1. Create a new **empty public** repository named `margin-intelligence-dashboard` (do not initialize it with a README; this package already contains one).
-2. Open a terminal in the extracted project root.
-3. Run:
-
-```bash
-git init -b main
-git add .
-git commit -m "Build MarginIQ finance analytics application"
-git remote add origin https://github.com/YOUR_USERNAME/margin-intelligence-dashboard.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` with your GitHub handle. GitHub Actions will then run tests on pushes.
-
-## Deploying a live demo
-
-You can publish a **fictional-data-only** demo on Streamlit Community Cloud:
-
-1. Push the repository to GitHub.
-2. Sign in to https://share.streamlit.io/ and choose **Create app**.
-3. Select your GitHub repository, the `main` branch, and `app.py` as the entry point.
-4. Deploy and copy the app URL into the top of this README.
-5. Only add `OPENAI_API_KEY` to deployment secrets if you intentionally want to support paid AI requests. Avoid placing an unrestricted personal key in a public demo.
-
-The app works fully in deterministic mode without API access, so leaving AI disabled on a publicly accessible app is a good default.
 
 ## Skills demonstrated
 
