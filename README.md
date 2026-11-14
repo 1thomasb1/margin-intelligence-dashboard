@@ -1,5 +1,11 @@
 # MarginIQ | Revenue & Profitability Intelligence
+## 🚀 Live Application
 
+[▶ Launch MarginIQ — Interactive Finance Dashboard](https://margin-intelligence-dashboard-nw2pd8ka2ygjqlakfrcxfw.streamlit.app/)
+
+Explore financial performance, profitability analytics,
+pricing scenarios, and revenue forecasting through an
+interactive Python dashboard.
 **An end-to-end corporate finance, SQL, and business analytics portfolio project.**
 
 MarginIQ is an interactive financial dashboard built with **Python, Pandas, SQLite, Plotly, and Streamlit**. It helps an analyst explore realized sales and gross profit, examine customer discounts, compare a simulated budget with actual results, stress-test pricing assumptions, forecast a simple revenue trend, and generate an optional AI-powered executive narrative.
